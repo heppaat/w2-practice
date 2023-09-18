@@ -7,11 +7,6 @@
 
 body {
   background-color: #ffeedf;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 100vh; /* sets the target elements height to 100vh */
 }
 
 button {
@@ -24,12 +19,16 @@ button {
   color: #ffeedf;
   font-size: 200px;
   font-family: "Montserrat", sans-serif;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-weight: 300;
+  position: absolute; /* taking the element out of the rendering flow */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 span {
-  height: 265px;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
 }

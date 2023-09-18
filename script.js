@@ -1,5 +1,5 @@
-function logger() {
-  console.log();
+function logger(k) {
+  console.log(k);
 }
 
 function sumOfTwoNumbers(x, y) {
@@ -7,4 +7,4 @@ function sumOfTwoNumbers(x, y) {
   return sum;
 }
 
-console.log(sumOfTwoNumbers(15, 5));
+logger(sumOfTwoNumbers(5, 30));
